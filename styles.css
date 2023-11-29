@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-x: hidden;
+}
+
+#navbar {
+    width: 100vw;
+
+    display: flex;
+}
+
+#navbar > div {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+
+    margin: 5px;
+    padding: 10px;
+}
+
+#display {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 5px 50px;
+    margin: auto;
+    background-color: black;
+    color: white;
+
+    position: fixed;
+    bottom: 0;
+}
