@@ -8,15 +8,17 @@
 
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div id="navbar" class="fixed-top">
-        <div id="brand">The Store</div>
-        <div id="cart">cart</div>
-        <div id="electronics">electronics</div>
-        <div id="jewelry">jewelry</div>
-        <div id="men">men's clothing</div>
-        <div id="women">women's clothing</div>
-    </div>
+<body onload="fakeStore('/')">
+    <nav class="navbar sticky-top">
+        <div class="container-lg">
+            <span class="navbar-brand" id="brand">The Store</span>
+            <span class="nav-item" id="cart">Cart</span>
+            <span class="nav-item" id="electronics">Electronics</span>
+            <span class="nav-item" id="jewelry">Jewelry</span>
+            <span class="nav-item" id="men">Men's Clothing</span>
+            <span class="nav-item" id="women">Women's Clothing</span>
+        </div>
+    </nav>
 
     <div id="display"></div>
 
